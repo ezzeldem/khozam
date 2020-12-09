@@ -281,7 +281,7 @@ body {
         &.slick-active {
           button {
             &::before {
-              background-color: rgba($white-color, 1);
+              background-color: rgba($black-color, 1);
             }
           }
         }
@@ -292,7 +292,7 @@ body {
             height: 14px;
             @extend.trans-4;
             border-radius: 50%;
-            border: 2px solid rgba($white-color, 1);
+            border: 2px solid rgba($black-color, 1);
           }
         }
       }

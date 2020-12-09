@@ -237,14 +237,14 @@ body {
   height: 16px;
 }
 .intro-section .intro-slider .slick-dots li.slick-active button::before {
-  background-color: white;
+  background-color: black;
 }
 .intro-section .intro-slider .slick-dots li button::before {
   content: "";
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 .intro-section .intro-slider .intro-slider-item {
   background-position: center;
