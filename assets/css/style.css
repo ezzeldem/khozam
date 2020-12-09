@@ -280,6 +280,16 @@ body {
   position: relative;
   z-index: 1;
 }
+.project-section .project-banner-box::after {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: -1;
+}
 .project-section .project-banner-box .project-box {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 30px;
@@ -287,6 +297,7 @@ body {
 }
 .project-section .project-banner-box .project-box .prag {
   padding: 30px 0 40px;
+  color: white;
 }
 
 .gallery-section .gallery-box {
