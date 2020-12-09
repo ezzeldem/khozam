@@ -31,7 +31,7 @@ $gold-color: #c3a579;
 // min class
 body {
   font-family: "Poppins", sans-serif;
-  padding:104px 0 0 ;
+  padding: 104px 0 0;
   background-color: rgba($brown-color, 1);
 }
 
@@ -71,9 +71,9 @@ body {
   overflow-y: hidden;
 }
 
-  .section-padding{
-    padding: 60px 0;
-  }
+.section-padding {
+  padding: 60px 0;
+}
 
 .link-box {
   a {
@@ -162,23 +162,20 @@ body {
   }
 }
 
-
-.inner-page-title{
-  padding: 70px 0 ;
+.inner-page-title {
+  padding: 70px 0;
   text-align: center;
-  .title{
+  .title {
     font-size: 40px;
     font-weight: 700;
     color: rgba($gold-color, 1);
   }
-
-
 }
 
-.section-title{
+.section-title {
   font-size: 40px;
   font-weight: 700;
-  padding:0  25px 40px 0 ;
+  padding: 0 25px 40px 0;
   color: rgba($white-color, 1);
 }
 
@@ -196,7 +193,8 @@ body {
   right: 0;
   height: 104px;
   z-index: 1030;
-  .menu-icon,.close-icon {
+  .menu-icon,
+  .close-icon {
     display: none;
   }
   .logo-box {
@@ -309,22 +307,15 @@ body {
       align-items: center;
       justify-content: center;
       position: relative;
-      &::after {
-        content: "";
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba($black-color, 0.7);
-        z-index: -1;
-        position: absolute;
-      }
+
       .intro-slider-content {
         text-align: center;
         .intro-title {
           font-size: 30px;
           color: rgba($white-color, 1);
           margin: 40px 0;
+          background-color: rgba($black-color, 0.7);
+          padding: 20px;
         }
       }
     }
@@ -336,7 +327,7 @@ body {
 // about-section
 .about-section {
   .prag {
-    padding:0 16px;
+    padding: 0 16px;
   }
 }
 
@@ -351,16 +342,6 @@ body {
     background-image: url("../img/camera003.jpg");
     position: relative;
     z-index: 1;
-    &::after {
-      content: "";
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba($black-color, 0.7);
-      z-index: -1;
-      position: absolute;
-    }
     .project-box {
       background-color: rgba($black-color, 0.4);
       padding: 20px 30px;
@@ -634,7 +615,7 @@ body {
         }
       }
     }
-    .footer-projects-ul{
+    .footer-projects-ul {
       li {
         padding: 5px 0;
         a {
@@ -779,17 +760,12 @@ body {
 }
 
 @media (max-width: 772px) {
-
-
-  .inner-page-title{
-    padding: 40px 0 ;
-    .title{
+  .inner-page-title {
+    padding: 40px 0;
+    .title {
       font-size: 25px;
     }
-  
-  
   }
-
 
   .intro-section {
     .intro-slider {
@@ -902,26 +878,26 @@ body {
 }
 
 // vision-section
-.vision-section,.mision-section{
-  padding: 60px 0 ;
-  .order-md-3{
-    margin: 30px 0 ;
+.vision-section,
+.mision-section {
+  padding: 60px 0;
+  .order-md-3 {
+    margin: 30px 0;
   }
-
 }
 
 // vision-section
 
-
-@media(max-width:772px){
-  .vision-section, .mision-section {
+@media (max-width: 772px) {
+  .vision-section,
+  .mision-section {
     padding: 30px 0;
-}
-.section-title {
-  padding: 20px 0;
-  font-size: 20px;
-}
-.section-padding {
-  padding: 20px 0;
-}
+  }
+  .section-title {
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .section-padding {
+    padding: 20px 0;
+  }
 }
