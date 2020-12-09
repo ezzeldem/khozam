@@ -104,8 +104,8 @@ body {
   right: 0;
 }
 
-.brown-title.brown-title-2 {
-  text-align: end;
+.brown-title {
+  text-align: center;
 }
 .brown-title .title {
   font-size: 90px;
@@ -520,6 +520,14 @@ body {
   font-size: 20px;
   margin: 0 10px 0 0;
   color: #c3a579;
+}
+.footer-section .footer-box .footer-projects-ul li {
+  padding: 5px 0;
+}
+.footer-section .footer-box .footer-projects-ul li a {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
 }
 
 .footer-copy {

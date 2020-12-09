@@ -127,9 +127,7 @@ body {
 }
 
 .brown-title {
-  &.brown-title-2 {
-    text-align: end;
-  }
+  text-align: center;
   .title {
     font-size: 90px;
     font-weight: 700;
@@ -609,6 +607,16 @@ body {
               color: rgba($gold-color, 1);
             }
           }
+        }
+      }
+    }
+    .footer-projects-ul{
+      li {
+        padding: 5px 0;
+        a {
+          font-size: 14px;
+          color: rgba($white-color, 1);
+          font-weight: 600;
         }
       }
     }
