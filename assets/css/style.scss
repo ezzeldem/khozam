@@ -766,6 +766,9 @@ body {
       font-size: 25px;
     }
   }
+  .about-section .prag {
+    padding: 0px 0 10px;
+}
 
   .intro-section {
     .intro-slider {
@@ -825,7 +828,6 @@ body {
 
 @media (max-width: 442px) {
   .intro-section {
-    margin: 90px 0 0;
     .intro-slider {
       .slick-dots {
         bottom: 15px;
