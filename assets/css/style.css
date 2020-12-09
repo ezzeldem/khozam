@@ -18,6 +18,7 @@ a:focus {
 
 body {
   font-family: "Poppins", sans-serif;
+  padding: 104px 0 0;
   background-color: #2b2b2b;
 }
 
@@ -57,6 +58,10 @@ body {
 
 .body-over {
   overflow-y: hidden;
+}
+
+.section-padding {
+  padding: 60px 0;
 }
 
 .link-box a {
@@ -110,7 +115,6 @@ body {
 .brown-title .title {
   font-size: 90px;
   font-weight: 700;
-  transform: translateY(31px);
   color: rgba(195, 165, 121, 0.25);
 }
 
@@ -133,6 +137,23 @@ body {
 .white-title .title span {
   margin: 0 -39px;
   display: block;
+}
+
+.inner-page-title {
+  padding: 70px 0;
+  text-align: center;
+}
+.inner-page-title .title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #c3a579;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0 25px 40px 0;
+  color: white;
 }
 
 .nav-section {
@@ -228,7 +249,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  height: 646px !important;
   z-index: 1;
   display: flex !important;
   align-items: center;
@@ -630,9 +651,13 @@ body {
   }
 }
 @media (max-width: 772px) {
-  .intro-section {
-    margin: 90px 0 0;
+  .inner-page-title {
+    padding: 40px 0;
   }
+  .inner-page-title .title {
+    font-size: 25px;
+  }
+
   .intro-section .intro-slider .intro-slider-item {
     height: 480px;
   }
@@ -716,5 +741,26 @@ body {
 
   .nav-section .nav-link {
     width: 222px;
+  }
+}
+.vision-section, .mision-section {
+  padding: 60px 0;
+}
+.vision-section .order-md-3, .mision-section .order-md-3 {
+  margin: 30px 0;
+}
+
+@media (max-width: 772px) {
+  .vision-section, .mision-section {
+    padding: 30px 0;
+  }
+
+  .section-title {
+    padding: 20px 0;
+    font-size: 20px;
+  }
+
+  .section-padding {
+    padding: 20px 0;
   }
 }
