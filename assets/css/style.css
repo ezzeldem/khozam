@@ -44,6 +44,13 @@ body {
   color: #d6d6d6;
 }
 
+.title3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #d6d6d6;
+}
+
 .opne-menu {
   left: 0 !important;
 }
@@ -690,7 +697,7 @@ body {
   }
 
   .padding-0 {
-    padding: 0 15px;
+    padding: 0 0px;
   }
 
   .prag {
@@ -913,4 +920,10 @@ body {
 
 .master-plan-section .img-box {
   text-align: center;
+}
+
+@media (max-width: 772px) {
+  .projects-banner-section .banner-img {
+    height: 350px;
+  }
 }

@@ -53,6 +53,12 @@ body {
   font-weight: 500;
   color: rgba($white-color2, 1);
 }
+.title3{
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: rgba($white-color2, 1);
+}
 
 .opne-menu {
   left: 0 !important;
@@ -810,7 +816,7 @@ body {
     order: -1;
   }
   .padding-0 {
-    padding: 0 15px;
+    padding: 0 0px;
   }
   .prag {
     font-size: 14px;
@@ -1123,3 +1129,10 @@ body {
 // master-plan-section
 
 
+@media(max-width:772px){
+  .projects-banner-section{
+     .banner-img{
+      height: 350px;
+     }
+    }
+}
