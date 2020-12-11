@@ -877,9 +877,6 @@ body {
 }
 
 @media (max-width: 772px) {
-  .projects-section .brown-title {
-    display: block;
-  }
   .projects-section .brown-title .logo-project {
     margin: 20px 0px;
   }
