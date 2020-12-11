@@ -28,4 +28,27 @@ $(document).ready(function () {
     $(".select-careers").on("change", function () {
         $("#" + this.value).toggleClass("show-form hide-form").siblings().addClass("hide-form").removeClass("show-form");
     });
+
+
+
+
+
+
+    // floorPlan-slider
+
+    $(".floorPlan-slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // autoplay:true,
+        dots: false,
+        autoplaySpeed: 1000,
+        prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+        nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+    });
+
+
+
+
+
 });

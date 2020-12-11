@@ -25,7 +25,7 @@ body {
   background-color: #2b2b2b;
 }
 
-.trans-4, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a {
+.trans-4, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .floorPlan-section .floorPlan-slider .arrow-slider-header {
   transition: 0.4s all ease-in-out;
 }
 
@@ -282,7 +282,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 646px !important;
+  height: 646px;
   z-index: 1;
   display: flex !important;
   align-items: center;
@@ -925,5 +925,51 @@ body {
 @media (max-width: 772px) {
   .projects-banner-section .banner-img {
     height: 350px;
+  }
+}
+.floorPlan-section .floorPlan-slider .arrow-slider-header {
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all, 0.4s;
+}
+.floorPlan-section .floorPlan-slider .arrow-slider-header.left-arrow {
+  left: -25px;
+  background-color: white;
+  color: black;
+}
+.floorPlan-section .floorPlan-slider .arrow-slider-header.right-arrow {
+  right: -25px;
+  background-color: #c3a579;
+  color: white;
+}
+.floorPlan-section .floorPlan-slider .floorPlan-slider-item {
+  text-align: center;
+}
+
+@media (max-width: 772px) {
+  .floorPlan-section .floorPlan-slider {
+    padding: 0 0 40px;
+  }
+  .floorPlan-section .floorPlan-slider .arrow-slider-header {
+    top: unset;
+    bottom: 0;
+  }
+  .floorPlan-section .floorPlan-slider .arrow-slider-header.right-arrow {
+    left: 50px;
+  }
+  .floorPlan-section .floorPlan-slider .arrow-slider-header.left-arrow {
+    left: -5px;
+  }
+
+  .vision-section,
+  .mision-section {
+    margin: 0;
   }
 }
