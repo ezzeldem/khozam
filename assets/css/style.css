@@ -767,11 +767,11 @@ body {
 }
 @media (max-width: 440px) {
   body {
-    padding: 72px 0 0;
+    padding: 80px 0 0;
   }
 
   .nav-section {
-    height: 71px;
+    height: 80px;
   }
 }
 .careers-section .careers-title {
