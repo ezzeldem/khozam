@@ -765,6 +765,15 @@ body {
     padding: 20px 0;
   }
 }
+@media (max-width: 440px) {
+  body {
+    padding: 72px 0 0;
+  }
+
+  .nav-section {
+    height: 71px;
+  }
+}
 .careers-section .careers-title {
   font-size: 40px;
   font-weight: 600;

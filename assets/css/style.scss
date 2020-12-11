@@ -908,6 +908,15 @@ body {
   }
 }
 
+@media(max-width:440px){
+    body{
+        padding: 72px 0 0 ;
+    }
+    .nav-section {
+        height: 71px;
+    }
+}
+
 // careers-section
 .careers-section {
   .careers-title {
