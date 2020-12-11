@@ -875,3 +875,18 @@ body {
 .projects-section .section-content .prag {
   padding: 10px 0;
 }
+
+@media (max-width: 772px) {
+  .projects-section .brown-title {
+    display: block;
+  }
+  .projects-section .brown-title .logo-project {
+    margin: 20px 0px;
+  }
+  .projects-section .section-content {
+    padding: 10px 0px;
+  }
+  .projects-section .section-content .prag {
+    padding: 10px 0;
+  }
+}
