@@ -9,6 +9,9 @@ h6 {
   margin: unset;
 }
 
+a {
+  display: inline-block;
+}
 a:hover {
   text-decoration: none;
 }
@@ -166,7 +169,7 @@ body {
   text-align: center;
 }
 .inner-page-title .title {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color: #c3a579;
 }
@@ -496,6 +499,9 @@ body {
   text-align: center;
 }
 
+.footer-section {
+  padding: 60px 0 0;
+}
 .footer-section .footer-box {
   margin: 10px 0;
 }
@@ -851,4 +857,21 @@ body {
 }
 .contact-section .footer-contact-ul ul li a span {
   display: block;
+}
+
+.projects-section .section-padding {
+  padding: 0 0 40px;
+}
+.projects-section .brown-title {
+  display: flex;
+  align-items: center;
+}
+.projects-section .brown-title .logo-project {
+  margin: 0 20px;
+}
+.projects-section .section-content {
+  padding: 0 60px;
+}
+.projects-section .section-content .prag {
+  padding: 10px 0;
 }
