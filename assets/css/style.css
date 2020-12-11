@@ -303,6 +303,7 @@ body {
   background-size: cover;
   background-image: url("../img/camera003.jpg");
   position: relative;
+  background-attachment: fixed;
   z-index: 1;
 }
 .project-section .project-banner-box::after {
@@ -874,6 +875,7 @@ body {
 .projects-section .brown-title {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .projects-section .brown-title .logo-project {
   margin: 0 20px;
@@ -895,4 +897,20 @@ body {
   .projects-section .section-content .prag {
     padding: 10px 0;
   }
+}
+.projects-banner-section .banner-img {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.projects-banner-section .banner-img .logo-img {
+  text-align: end;
+}
+
+.master-plan-section .img-box {
+  text-align: center;
 }
