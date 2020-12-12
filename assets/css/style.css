@@ -916,9 +916,26 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.projects-banner-section .banner-img::after {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(43, 43, 43, 0.2);
 }
 .projects-banner-section .banner-img .logo-img {
   text-align: end;
+}
+
+.consept-section .prag {
+  padding: 5px 0;
+  font-weight: 400;
 }
 
 .master-plan-section .img-box {

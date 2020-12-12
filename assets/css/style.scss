@@ -1110,6 +1110,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 1;
+    &::after{
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      z-index: -1;
+      background-color: rgba($brown-color, 0.2);
+    }
     .logo-img {
       text-align: end;
     }
@@ -1117,6 +1129,19 @@ body {
 }
 
 // projects-banner-section
+
+// consept-section 
+
+.consept-section {
+  .prag{
+    padding: 5px 0;
+    font-weight: 400;
+  }
+
+}
+
+// consept-section 
+
 
 // master-plan-section
 
