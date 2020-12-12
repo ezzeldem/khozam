@@ -1194,10 +1194,58 @@ body {
     }
   }
 }
+.gallery-section {
+  .gallery-slider {
+    .arrow-slider-header {
+      position: absolute;
+      top: 50%;
+      font-size: 18px;
+
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
+      text-align: center;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: all, 0.4s;
+
+      @extend.trans-4;
+      &.left-arrow {
+        left: -25px;
+        background-color: rgba($white-color, 1);
+        color: rgba($black-color, 1);
+      }
+      &.right-arrow {
+        right: -25px;
+        background-color: rgba($gold-color, 1);
+        color: rgba($white-color, 1);
+      }
+    }
+
+    .gallery-slider-item {
+      text-align: center;
+    }
+  }
+}
 
 @media (max-width: 772px) {
   .floorPlan-section {
     .floorPlan-slider {
+      padding: 0 0 40px;
+      .arrow-slider-header {
+        top: unset;
+        bottom: 0;
+        &.right-arrow {
+          left: 50px;
+        }
+        &.left-arrow {
+          left: -5px;
+        }
+      }
+    }
+  }
+  .gallery-section {
+    .gallery-slider {
       padding: 0 0 40px;
       .arrow-slider-header {
         top: unset;

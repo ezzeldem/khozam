@@ -25,7 +25,7 @@ body {
   background-color: #2b2b2b;
 }
 
-.trans-4, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .floorPlan-section .floorPlan-slider .arrow-slider-header {
+.trans-4, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .floorPlan-section .floorPlan-slider .arrow-slider-header, .gallery-section .gallery-slider .arrow-slider-header {
   transition: 0.4s all ease-in-out;
 }
 
@@ -973,6 +973,32 @@ body {
   text-align: center;
 }
 
+.gallery-section .gallery-slider .arrow-slider-header {
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all, 0.4s;
+}
+.gallery-section .gallery-slider .arrow-slider-header.left-arrow {
+  left: -25px;
+  background-color: white;
+  color: black;
+}
+.gallery-section .gallery-slider .arrow-slider-header.right-arrow {
+  right: -25px;
+  background-color: #c3a579;
+  color: white;
+}
+.gallery-section .gallery-slider .gallery-slider-item {
+  text-align: center;
+}
+
 @media (max-width: 772px) {
   .floorPlan-section .floorPlan-slider {
     padding: 0 0 40px;
@@ -985,6 +1011,20 @@ body {
     left: 50px;
   }
   .floorPlan-section .floorPlan-slider .arrow-slider-header.left-arrow {
+    left: -5px;
+  }
+
+  .gallery-section .gallery-slider {
+    padding: 0 0 40px;
+  }
+  .gallery-section .gallery-slider .arrow-slider-header {
+    top: unset;
+    bottom: 0;
+  }
+  .gallery-section .gallery-slider .arrow-slider-header.right-arrow {
+    left: 50px;
+  }
+  .gallery-section .gallery-slider .arrow-slider-header.left-arrow {
     left: -5px;
   }
 
