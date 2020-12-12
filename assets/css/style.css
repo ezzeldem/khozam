@@ -25,7 +25,7 @@ body {
   background-color: #2b2b2b;
 }
 
-.trans-4, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .floorPlan-section .floorPlan-slider .arrow-slider-header, .gallery-section .gallery-slider .arrow-slider-header {
+.trans-4, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .floorPlan-section .floorPlan-slider .arrow-slider-header, .gallery-section .gallery-slider .arrow-slider-header, .floorPlan-section .arrow-box .arrow-slider-header {
   transition: 0.4s all ease-in-out;
 }
 
@@ -1011,6 +1011,26 @@ body {
   color: white;
 }
 .gallery-section .gallery-slider .gallery-slider-item {
+  text-align: center;
+}
+
+.floorPlan-section .arrow-box {
+  display: flex;
+  margin: 0 0 30px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(214, 214, 214, 0.4);
+  justify-content: flex-end;
+}
+.floorPlan-section .arrow-box .arrow-slider-header {
+  font-size: 28px;
+  margin: 0 0 0 40px;
+  color: white;
+  cursor: pointer;
+}
+.floorPlan-section .arrow-box .arrow-slider-header:hover {
+  color: #c3a579;
+}
+.floorPlan-section .construction-slider .construction-slider-item {
   text-align: center;
 }
 

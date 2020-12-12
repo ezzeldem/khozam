@@ -1247,6 +1247,35 @@ body {
   }
 }
 
+
+
+
+.floorPlan-section{
+  .arrow-box{
+    display: flex;
+    margin: 0 0 30px;
+    padding: 10px 0 ;
+    border-bottom: 1px solid rgba($white-color2, .4);
+    justify-content: flex-end;
+    .arrow-slider-header{
+      font-size: 28px;
+      margin: 0 0 0 40px;
+      color: rgba($white-color, 1);
+      @extend.trans-4;
+      cursor: pointer;
+      &:hover{
+        color: rgba($gold-color, 1);
+      }
+    }
+  }
+  .construction-slider{
+    .construction-slider-item{
+      text-align: center;
+    }
+  }
+}
+
+
 @media (max-width: 772px) {
   .floorPlan-section {
     .floorPlan-slider {
