@@ -31,6 +31,7 @@ $gold-color: #c3a579;
 
 // min class
 body {
+  @extend.trans-4;
   font-family: "Poppins", sans-serif;
   padding: 104px 0 0;
   background-color: rgba($brown-color, 1);
@@ -85,6 +86,87 @@ body {
 .pad-0 {
   padding: 0;
 }
+
+
+
+
+
+
+.pop-up-box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba($white-color2, 1);
+  z-index: 998;
+  width: 85%;
+  height: 85%;
+  overflow-y: scroll;
+  border-radius: 10px;
+  padding: 30px;
+  @extend.trans-4;
+  opacity: 0;
+  visibility: hidden;
+  &.show-pop{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .close-menu{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    i{
+      font-size: 22px;
+      @extend.trans-4;
+      cursor: pointer;
+      color: rgba($black-color, 1);
+      &:hover{
+        color: rgba($gold-color, 1);
+      }
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: rgba($gray-color, 1);
+    @extend.trans-4;
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba($gold-color, 1);
+  } 
+  a{
+    display: block;
+  .pop-img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba($gray-color, .1);
+    margin: 0 0 10px;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
 
 .link-box {
   a {
@@ -144,10 +226,22 @@ body {
 
 .brown-title {
   text-align: center;
+  margin: 10px 0;
   .title {
     font-size: 90px;
     font-weight: 700;
     color: rgba($gold-color, 0.25);
+  }
+  &.flex-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .select-floor-box{
+      margin: 0 10px;
+      .floor-select{
+        width: 132px;
+      }
+    }
   }
 }
 .white-title {
@@ -211,6 +305,40 @@ body {
   color: rgba($white-color, 1);
 }
 
+.arrow-slider-header {
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all, 0.4s;
+
+  @extend.trans-4;
+  &.left-arrow {
+    left: -62px;
+    background-color: rgba($white-color, 1);
+    color: rgba($black-color, 1);
+  }
+  &.right-arrow {
+    right: -62px;
+    background-color: rgba($gold-color, 1);
+    color: rgba($white-color, 1);
+  }
+}
+
+.intro-inner-page{
+  text-align: center;
+  .inner-page-title{
+    padding: 60px 0 20px;
+  }
+}
+
+
 // min class
 
 // nav-section
@@ -224,7 +352,7 @@ body {
   left: 0;
   right: 0;
   height: 104px;
-  z-index: 1030;
+  z-index: 990;
   .menu-icon,
   .close-icon {
     display: none;
@@ -406,14 +534,7 @@ body {
     overflow: hidden;
     z-index: 1;
     position: relative;
-    .gallery-box-link {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 99999999;
-    }
+    cursor: pointer;
     &:hover {
       .gallery-box-img {
         transform: scale(1.15);
@@ -1182,31 +1303,6 @@ body {
 
 
   .floorPlan-slider {
-    .arrow-slider-header {
-      position: absolute;
-      top: 50%;
-      font-size: 18px;
-
-      height: 35px;
-      width: 35px;
-      line-height: 35px;
-      text-align: center;
-      margin: 0 5px;
-      cursor: pointer;
-      transition: all, 0.4s;
-
-      @extend.trans-4;
-      &.left-arrow {
-        left: -25px;
-        background-color: rgba($white-color, 1);
-        color: rgba($black-color, 1);
-      }
-      &.right-arrow {
-        right: -25px;
-        background-color: rgba($gold-color, 1);
-        color: rgba($white-color, 1);
-      }
-    }
 
     .floorPlan-slider-item {
       text-align: center;
@@ -1215,31 +1311,7 @@ body {
 }
 .gallery-section {
   .gallery-slider {
-    .arrow-slider-header {
-      position: absolute;
-      top: 50%;
-      font-size: 18px;
 
-      height: 35px;
-      width: 35px;
-      line-height: 35px;
-      text-align: center;
-      margin: 0 5px;
-      cursor: pointer;
-      transition: all, 0.4s;
-
-      @extend.trans-4;
-      &.left-arrow {
-        left: -25px;
-        background-color: rgba($white-color, 1);
-        color: rgba($black-color, 1);
-      }
-      &.right-arrow {
-        right: -25px;
-        background-color: rgba($gold-color, 1);
-        color: rgba($white-color, 1);
-      }
-    }
 
     .gallery-slider-item {
       text-align: center;
@@ -1251,23 +1323,7 @@ body {
 
 
 .floorPlan-section{
-  .arrow-box{
-    display: flex;
-    margin: 0 0 30px;
-    padding: 10px 0 ;
-    border-bottom: 1px solid rgba($white-color2, .4);
-    justify-content: flex-end;
-    .arrow-slider-header{
-      font-size: 28px;
-      margin: 0 0 0 40px;
-      color: rgba($white-color, 1);
-      @extend.trans-4;
-      cursor: pointer;
-      &:hover{
-        color: rgba($gold-color, 1);
-      }
-    }
-  }
+
   .construction-slider{
     .construction-slider-item{
       text-align: center;
@@ -1277,39 +1333,35 @@ body {
 
 
 @media (max-width: 772px) {
+  .arrow-slider-header {
+    top: unset;
+    bottom: 0;
+    &.right-arrow {
+      left: 50px;
+    }
+    &.left-arrow {
+      left: -5px;
+    }
+  }
   .floorPlan-section {
     .floorPlan-slider {
       padding: 0 0 40px;
-      .arrow-slider-header {
-        top: unset;
-        bottom: 0;
-        &.right-arrow {
-          left: 50px;
-        }
-        &.left-arrow {
-          left: -5px;
-        }
-      }
+    
     }
   }
   .gallery-section {
     .gallery-slider {
       padding: 0 0 40px;
-      .arrow-slider-header {
-        top: unset;
-        bottom: 0;
-        &.right-arrow {
-          left: 50px;
-        }
-        &.left-arrow {
-          left: -5px;
-        }
-      }
     }
   }
 
   .vision-section,
   .mision-section {
     margin: 0;
+  }
+  .floorPlan-section{
+    .construction-slider{
+      padding: 0 0 40px;
+    }
   }
 }

@@ -41,6 +41,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
+        adaptiveHeight:true,
         dots: false,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
@@ -54,6 +55,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
+        adaptiveHeight:true,
         dots: false,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
@@ -66,11 +68,27 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
+        adaptiveHeight:true,
         dots: false,
         autoplaySpeed: 1000,
-        prevArrow: $('.construction-left'),
-        nextArrow: $('.construction-right'),
+        prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+        nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
     });
+
+
+    // opne pop-up
+    $('.gallery-box').click(function(s){
+        s.stopPropagation();
+        $("#" + $(this).data("open")).addClass('show-pop');
+        $("body").addClass("body-over");
+        $(".over-lay").show();
+    });
+    $('.pop-up-box .close-menu i').click(function(){
+        $(".pop-up-box").removeClass('show-pop');
+        $("body").removeClass("body-over");
+        $(".over-lay").hide();
+    });
+
 
 
 

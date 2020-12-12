@@ -198,25 +198,23 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="brown-title brown-title-2">
+                                <div class="brown-title flex-class brown-title-2">
                                     <h2 class="title">
                                         Floor plans
                                     </h2>
+                                    <div class="select-floor-box">
+                                        <select name="floor-select" class="floor-select" id="floor-select">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="select-floor-box">
-                                    <select name="floor-select" class="floor-select" id="floor-select">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                    </select>
-                                </div>
-                            </div>
                             <div class="col-md-12">
                                 <div class="floorPlan-slider">
                                     <div class="floorPlan-slider-item">
@@ -344,8 +342,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-3 col-md-6 padding-0">
-                                <div class="gallery-box">
-                                    <a href="#" class="gallery-box-link"> </a>
+                                <div class="gallery-box" data-open="pop-1">
                                     <div class="gallery-box-img"
                                         style="background-image: url(assets/img/download.png);"></div>
                                     <div class="show-more">
@@ -454,29 +451,19 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="arrow-box">
-                                    <div class="arrow-slider-header construction-left left-arrow"> <i class="fas fa-arrow-left"></i></div>
-                                    <div class="arrow-slider-header construction-right right-arrow"> <i class="fas fa-arrow-right"></i></div>
-                                </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="construction-slider">
                                     <div class="construction-slider-item">
-                                        <a rel="ligthbox" data-fancybox="construction" href="assets/img/TYPE-01.jpg"
+                                        <a rel="ligthbox" data-fancybox="construction" href="assets/img/PERE4606.jpg"
                                             tabindex="-1">
-                                            <img class="img-fluid" src="assets/img/TYPE-01.jpg" alt="">
+                                            <img class="img-fluid" src="assets/img/PERE4606.jpg" alt="">
                                         </a>
                                     </div>
                                     <div class="construction-slider-item">
-                                        <a rel="ligthbox" data-fancybox="construction" href="assets/img/TYPE-02-A.jpg"
+                                        <a rel="ligthbox" data-fancybox="construction" href="assets/img/5944_Structural_Crane-Perspective.jpg"
                                             tabindex="-1">
-                                            <img class="img-fluid" src="assets/img/TYPE-02-A.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="construction-slider-item">
-                                        <a rel="ligthbox" data-fancybox="construction" href="assets/img/TYPE-03-A.jpg"
-                                            tabindex="-1">
-                                            <img class="img-fluid" src="assets/img/TYPE-03-A.jpg" alt="">
+                                            <img class="img-fluid" src="assets/img/5944_Structural_Crane-Perspective.jpg" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -737,6 +724,50 @@
             </footer>
         </div>
         <!--           end footer-->
+
+
+
+
+
+        <div class="pop-up-box" id="pop-1">
+            <div class="close-menu">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <a rel="ligthbox" data-fancybox="pop-1" href="assets/img/Cafe1-1.jpg"
+                        tabindex="-1">
+                        <div class="pop-img" style="background-image: url(assets/img/Cafe1-1.jpg);"></div>
+                    </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a rel="ligthbox" data-fancybox="pop-1" href="assets/img/Our-Vision.png"
+                        tabindex="-1">
+                        <div class="pop-img" style="background-image: url(assets/img/Our-Vision.png);"></div>
+                    </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a rel="ligthbox" data-fancybox="pop-1" href="assets/img/Kids-Area.jpg"
+                        tabindex="-1">
+                        <div class="pop-img" style="background-image: url(assets/img/Kids-Area.jpg);"></div>
+                    </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a rel="ligthbox" data-fancybox="pop-1" href="assets/img/masterplan-3.png"
+                        tabindex="-1">
+                        <div class="pop-img" style="background-image: url(assets/img/masterplan-3.png);"></div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
