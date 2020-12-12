@@ -172,7 +172,7 @@ body {
 }
 
 .inner-page-title {
-  padding: 70px 0;
+  padding: 70px 0 30px;
   text-align: center;
 }
 .inner-page-title .title {
@@ -891,7 +891,7 @@ body {
   margin: 0 20px;
 }
 .projects-section .section-content {
-  padding: 0 60px;
+  padding: 0 0px 0 60px;
 }
 .projects-section .section-content .prag {
   padding: 10px 0;
@@ -911,7 +911,8 @@ body {
 .projects-banner-section .banner-img {
   height: 550px;
   display: flex;
-  align-items: center;
+  padding: 60px 0;
+  align-items: flex-start;
   justify-content: flex-end;
   background-position: center;
   background-repeat: no-repeat;
@@ -933,6 +934,9 @@ body {
   text-align: end;
 }
 
+.consept-section .main-content {
+  text-align: center;
+}
 .consept-section .prag {
   padding: 5px 0;
   font-weight: 400;
@@ -946,6 +950,17 @@ body {
   .projects-banner-section .banner-img {
     height: 350px;
   }
+}
+.floorPlan-section .select-floor-box {
+  text-align: center;
+  margin: 20px 0;
+}
+.floorPlan-section .select-floor-box .floor-select {
+  width: 50%;
+  height: 30px;
+  border: 1px solid #bfc1c4;
+  background-color: transparent;
+  color: #c3a579;
 }
 .floorPlan-section .floorPlan-slider .arrow-slider-header {
   position: absolute;

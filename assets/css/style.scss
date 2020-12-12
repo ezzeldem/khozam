@@ -195,7 +195,7 @@ body {
 }
 
 .inner-page-title {
-  padding: 70px 0;
+  padding: 70px 0 30px;
   text-align: center;
   .title {
     font-size: 50px;
@@ -1075,7 +1075,7 @@ body {
     }
   }
   .section-content {
-    padding: 0 60px;
+    padding: 0 0px 0 60px;
     .prag {
       padding: 10px 0;
     }
@@ -1105,7 +1105,8 @@ body {
   .banner-img {
     height: 550px;
     display: flex;
-    align-items: center;
+    padding: 60px 0 ;
+    align-items: flex-start;
     justify-content: flex-end;
     background-position: center;
     background-repeat: no-repeat;
@@ -1133,6 +1134,9 @@ body {
 // consept-section 
 
 .consept-section {
+  .main-content{
+    text-align:center;
+  }
   .prag{
     padding: 5px 0;
     font-weight: 400;
@@ -1162,6 +1166,21 @@ body {
 }
 
 .floorPlan-section {
+
+
+  .select-floor-box{
+    text-align: center;
+    margin: 20px 0;
+    .floor-select{
+      width: 50%;
+      height: 30px;
+      border: 1px solid rgba($gray-color, 1);
+      background-color: transparent;
+      color: rgba($gold-color, 1);
+    }
+  }
+
+
   .floorPlan-slider {
     .arrow-slider-header {
       position: absolute;
