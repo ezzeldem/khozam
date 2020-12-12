@@ -955,12 +955,16 @@ body {
     }
   }
   .careers-box-content {
+    img{
+      width: 100%;
+    }
     .careers-box-text {
       height: 100%;
       background-color: rgba($gold-color, 1);
       display: flex;
       align-items: center;
       padding: 20px;
+
       .careers-text {
         // display: none;
         .title {

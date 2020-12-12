@@ -809,6 +809,9 @@ body {
 .careers-section .select-careers-box .select-careers option {
   color: black;
 }
+.careers-section .careers-box-content img {
+  width: 100%;
+}
 .careers-section .careers-box-content .careers-box-text {
   height: 100%;
   background-color: #c3a579;
