@@ -1100,3 +1100,20 @@ body {
     padding: 0 0 40px;
   }
 }
+.media-section .media-event {
+  padding: 50px 0;
+}
+.media-section .media-event .media-event-item .event-img {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.media-section .media-event .media-event-item .event-content .event-title {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+.media-section .media-event .media-event-item .event-content .prag {
+  margin: 10px 0;
+}

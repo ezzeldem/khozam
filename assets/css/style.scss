@@ -1368,3 +1368,35 @@ body {
     }
   }
 }
+
+
+
+
+
+
+// event-section
+.media-section{
+  .media-event{
+    padding: 50px 0;
+    .media-event-item{
+      .event-img{
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .event-content{
+        .event-title{
+          font-size: 30px;
+          color: rgba($white-color, 1);
+          font-weight: 600;
+        }
+        .prag{
+          margin:10px 0; 
+        }
+      }
+    }
+  }
+}
+
+// event-section

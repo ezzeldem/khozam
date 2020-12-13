@@ -75,6 +75,29 @@ $(document).ready(function () {
         nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
     });
 
+    $(".event-slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // autoplay:true,
+        adaptiveHeight:true,
+        dots: false,
+        autoplaySpeed: 1000,
+        prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+        nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+    });
+    $(".news-slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // autoplay:true,
+        adaptiveHeight:true,
+        dots: false,
+        autoplaySpeed: 1000,
+        prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+        nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+    });
+
 
     // opne pop-up
     // $('.gallery-box').click(function(s){
