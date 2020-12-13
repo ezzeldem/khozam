@@ -1415,3 +1415,21 @@ body {
 }
 
 // event-section
+
+
+
+
+@media(max-width:772px){
+  .media-section{
+     .media-event{
+        .media-event-item{
+           .event-content{
+              .event-title{
+                font-size:20px;
+              }
+            }
+          }
+        }
+      }
+              
+}

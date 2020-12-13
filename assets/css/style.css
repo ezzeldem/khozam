@@ -1133,3 +1133,9 @@ body {
 .media-section .media-event .media-event-item .event-content .prag {
   margin: 10px 0;
 }
+
+@media (max-width: 772px) {
+  .media-section .media-event .media-event-item .event-content .event-title {
+    font-size: 20px;
+  }
+}
