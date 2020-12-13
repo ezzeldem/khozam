@@ -197,7 +197,7 @@ body {
 }
 .brown-title.flex-class {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .brown-title.flex-class .select-floor-box {
