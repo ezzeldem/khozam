@@ -78,6 +78,10 @@ body {
   padding: 0;
 }
 
+.box-s {
+  box-shadow: -8px 8px 17px rgba(214, 214, 214, 0.2);
+}
+
 .pop-up-box {
   position: fixed;
   top: 50%;
