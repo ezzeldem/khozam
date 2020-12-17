@@ -1220,6 +1220,16 @@ body {
   padding: 5px 0;
 }
 
+.projects-section .section-content .prag.sub-title {
+  padding: 5px 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.projects-section .section-content .link-box {
+  margin: 15px 0 0;
+}
+
 @media (max-width: 772px) {
   .projects-section .brown-title .logo-project {
     margin: 20px 0px;

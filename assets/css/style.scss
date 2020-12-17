@@ -1207,6 +1207,15 @@ body {
     .prag {
       font-size: 14px;
       padding: 5px 0;
+      &.sub-title{
+        padding: 5px 0 10px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+
+    .link-box{
+      margin: 15px 0 0;
     }
   }
 }
