@@ -1244,8 +1244,8 @@ body {
     height: 550px;
     display: flex;
     padding: 60px 0;
-    align-items: flex-start;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1262,7 +1262,8 @@ body {
       background-color: rgba($brown-color, 0.2);
     }
     .logo-img {
-      text-align: end;
+      text-align: center;
+      justify-content: center;
     }
   }
 }

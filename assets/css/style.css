@@ -1248,12 +1248,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 60px 0;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1273,7 +1273,10 @@ body {
 }
 
 .projects-banner-section .banner-img .logo-img {
-  text-align: end;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .consept-section .main-content {
