@@ -41,7 +41,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
-        adaptiveHeight:true,
+        adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
@@ -55,7 +55,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
-        adaptiveHeight:true,
+        adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
@@ -68,7 +68,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
-        adaptiveHeight:true,
+        adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
@@ -80,7 +80,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
-        adaptiveHeight:true,
+        adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
@@ -91,25 +91,25 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 1,
         // autoplay:true,
-        adaptiveHeight:true,
+        adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
         nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
         responsive: [
-       
+
             {
-              breakpoint: 997,
-              settings: {
-                slidesToShow: 1, 
-              }
+                breakpoint: 997,
+                settings: {
+                    slidesToShow: 1,
+                }
             },
-          ]
+        ]
     });
 
 
-// AOS 
-AOS.init();
+    // AOS 
+    AOS.init();
 
 
 
