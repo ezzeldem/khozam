@@ -108,20 +108,6 @@ $(document).ready(function () {
     });
 
 
-    // opne pop-up
-    $('.gallery-box').click(function(s){
-        s.stopPropagation();
-        $("#" + $(this).data("open")).addClass('show-pop');
-        $("body").addClass("body-over");
-        $(".over-lay").show();
-    });
-    $('.pop-up-box .close-menu i').click(function(){
-        $(".pop-up-box").removeClass('show-pop');
-        $("body").removeClass("body-over");
-        $(".over-lay").hide();
-    });
-
-
 // AOS 
 AOS.init();
 
