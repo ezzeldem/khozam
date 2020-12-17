@@ -1244,7 +1244,7 @@ body {
     height: 550px;
     display: flex;
     padding: 60px 0;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -1264,6 +1264,10 @@ body {
     .logo-img {
       text-align: center;
       justify-content: center;
+      img{
+        height: 141px;
+        object-fit: contain;
+      }
     }
   }
 }

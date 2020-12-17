@@ -1248,9 +1248,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 60px 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1277,6 +1277,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.projects-banner-section .banner-img .logo-img img {
+  height: 141px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .consept-section .main-content {
