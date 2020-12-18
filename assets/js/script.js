@@ -51,7 +51,7 @@ $(document).ready(function () {
     // gallaery-slider-slider
 
     $(".gallery-slider").slick({
-        infinite: true,
+        infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         // autoplay:true,
