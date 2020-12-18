@@ -294,7 +294,20 @@ body {
             }
         }
     }
+
 }
+
+
+.brochure-link{
+    a{
+        font-weight: 500;
+        font-size: 14px;
+        color: rgba($white-color, 1);
+        margin: 10px 0;
+        
+    }
+}
+
 
 .inner-page-title {
     padding: 70px 0 30px;
