@@ -325,6 +325,8 @@ body {
   position: absolute;
   top: 50%;
   font-size: 18px;
+  background-color: #c3a579;
+  color: white;
   height: 35px;
   width: 35px;
   line-height: 35px;
@@ -337,14 +339,16 @@ body {
 
 .arrow-slider-header.left-arrow {
   left: -62px;
+}
+
+.arrow-slider-header.slick-disabled {
   background-color: white;
   color: black;
+  opacity: .7;
 }
 
 .arrow-slider-header.right-arrow {
   right: -62px;
-  background-color: #c3a579;
-  color: white;
 }
 
 .intro-inner-page {

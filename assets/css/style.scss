@@ -317,7 +317,8 @@ body {
   position: absolute;
   top: 50%;
   font-size: 18px;
-
+  background-color: rgba($gold-color, 1);
+  color: rgba($white-color, 1);
   height: 35px;
   width: 35px;
   line-height: 35px;
@@ -329,13 +330,16 @@ body {
   @extend.trans-4;
   &.left-arrow {
     left: -62px;
+ 
+  }
+  &.slick-disabled{
     background-color: rgba($white-color, 1);
     color: rgba($black-color, 1);
+    opacity: .7;
   }
   &.right-arrow {
     right: -62px;
-    background-color: rgba($gold-color, 1);
-    color: rgba($white-color, 1);
+
   }
 }
 
