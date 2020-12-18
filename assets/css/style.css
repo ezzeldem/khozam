@@ -27,7 +27,7 @@ body {
   background-color: #2b2b2b;
 }
 
-.trans-4, body, .pop-up-box, .pop-up-box .close-menu i, .pop-up-box::-webkit-scrollbar-thumb, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a {
+.trans-4, body, .pop-up-box, .pop-up-box .close-menu i, .pop-up-box::-webkit-scrollbar-thumb, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, a[data-call]::before {
   -webkit-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
 }
@@ -344,7 +344,7 @@ body {
 .arrow-slider-header.slick-disabled {
   background-color: white;
   color: black;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .arrow-slider-header.right-arrow {
@@ -547,8 +547,8 @@ body {
 }
 
 .gallery-section .gallery-box:hover .gallery-box-img {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .gallery-section .gallery-box:hover:after {
@@ -602,6 +602,8 @@ body {
 .gallery-section .gallery-box .gallery-box-img {
   height: 100%;
   background-position: center;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transition: 0.7s all ease-in-out;
@@ -1422,5 +1424,30 @@ body {
   .pop-up-box a .pop-img {
     height: 152px;
   }
+}
+
+a[data-call] {
+  position: relative;
+}
+
+a[data-call]::before {
+  content: attr(data-call);
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  padding: 4px 12px;
+  opacity: 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(191, 193, 196, 0.1);
+          box-shadow: 0 0 10px rgba(191, 193, 196, 0.1);
+}
+
+a[data-call]:hover::before {
+  opacity: 1;
+  bottom: -30px;
 }
 /*# sourceMappingURL=style.css.map */
