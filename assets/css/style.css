@@ -234,7 +234,7 @@ body {
 }
 
 .brown-title .title {
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 700;
   color: rgba(195, 165, 121, 0.25);
 }
@@ -994,7 +994,7 @@ body {
     padding: 40px 0;
   }
   .inner-page-title .title {
-    font-size: 25px;
+    font-size: 45px;
   }
   .about-section .prag {
     padding: 0px 0 10px;
