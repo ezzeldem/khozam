@@ -105,6 +105,13 @@ $(document).ready(function () {
         ],
     });
 
+
+    // floor-plans-selcet
+    $('#floor-select').on('change', function() {
+        $('#' + this.value).toggleClass('show-form hide-form').siblings().addClass('hide-form').removeClass('show-form');
+    });
+
+
     // AOS
     AOS.init();
 });

@@ -1330,7 +1330,7 @@ body {
   color: #c3a579;
 }
 
-.floorPlan-section .floorPlan-slider .floorPlan-slider-item {
+.floorPlan-section .floorPlan-img-size {
   text-align: center;
 }
 
@@ -1338,7 +1338,7 @@ body {
   text-align: center;
 }
 
-.floorPlan-section .construction-slider .construction-slider-item {
+.construction-section .construction-slider .construction-slider-item {
   text-align: center;
 }
 
