@@ -32,21 +32,6 @@ $(document).ready(function () {
             .addClass("hide-form")
             .removeClass("show-form");
     });
-
-    // floorPlan-slider
-
-    $(".floorPlan-slider").slick({
-        infinite: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        adaptiveHeight: true,
-        dots: false,
-        autoplaySpeed: 1500,
-        prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
-        nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
-    });
-
     // gallaery-slider-slider
 
     $(".gallery-slider").slick({
