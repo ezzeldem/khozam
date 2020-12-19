@@ -27,7 +27,7 @@ body {
   background-color: #2b2b2b;
 }
 
-.trans-4, body, .pop-up-box, .pop-up-box .close-menu i, .pop-up-box::-webkit-scrollbar-thumb, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, a[data-call]::before {
+.trans-4, body, .pop-up-box, .pop-up-box .close-menu i, .pop-up-box::-webkit-scrollbar-thumb, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .construction-section .construction-slider .construction-slider-item a:after, a[data-call]::before {
   -webkit-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
 }
@@ -252,6 +252,13 @@ body {
 
 .brown-title.flex-class .select-floor-box {
   margin: 0 10px;
+}
+
+.brown-title.flex-class .select-floor-box label {
+  font-size: 14px;
+  color: #c3a579;
+  margin: 0 10px;
+  font-weight: 700;
 }
 
 .brown-title.flex-class .select-floor-box .floor-select {
@@ -1340,6 +1347,46 @@ body {
 
 .construction-section .construction-slider .construction-slider-item {
   text-align: center;
+}
+
+.construction-section .construction-slider .construction-slider-item a {
+  position: relative;
+  z-index: 1;
+}
+
+.construction-section .construction-slider .construction-slider-item a:after {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.construction-section .construction-slider .construction-slider-item a:hover::after {
+  -webkit-box-shadow: 0 0 0 14px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 0 14px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 772px) {
