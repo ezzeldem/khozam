@@ -1408,12 +1408,12 @@ body {
 
 .construction-section .construction-slider .construction-slider-item a .construction-dateBox {
   position: absolute;
-  width: 104px;
-  padding: 3px;
+  padding: 3px 10px;
   z-index: 9999;
   background-color: #c3a579;
   left: 12px;
   top: 2px;
+  text-align: center;
 }
 
 .construction-section .construction-slider .construction-slider-item a .construction-dateBox span {
@@ -1421,14 +1421,14 @@ body {
 }
 
 .construction-section .construction-slider .construction-slider-item a .construction-dateBox span.date-number {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: black;
 }
 
 .construction-section .construction-slider .construction-slider-item a .construction-dateBox span.date-month {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   padding: 10px 0;
   color: black;
 }

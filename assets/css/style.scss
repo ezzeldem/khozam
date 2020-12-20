@@ -1405,22 +1405,22 @@ body {
         z-index: 1;
         .construction-dateBox{
             position: absolute;
-            width: 104px;
-            padding: 3px ;
+            padding: 3px 10px;
             z-index: 9999;
             background-color: rgba($gold-color, 1);
             left: 12px;
             top: 2px;
+            text-align:center;
             span{
                 display: block;
                 &.date-number{
-                    font-size: 50px;
+                    font-size: 40px;
                     font-weight: 700;
                     color: rgba($black-color, 1);
                 }
                 &.date-month{
-                    font-size: 20px;
-                    font-weight: 500;
+                    font-size: 16px;
+                    font-weight: 600;
                     padding: 10px 0;
                     color: rgba($black-color, 1);
                 }
