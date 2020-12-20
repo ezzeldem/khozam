@@ -1406,6 +1406,10 @@ body {
   z-index: 1;
 }
 
+.construction-section .construction-slider .construction-slider-item a img {
+  height: 450px;
+}
+
 .construction-section .construction-slider .construction-slider-item a .construction-dateBox {
   position: absolute;
   padding: 3px 10px;

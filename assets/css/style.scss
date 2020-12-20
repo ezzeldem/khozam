@@ -1403,6 +1403,9 @@ body {
       a {
         position: relative;
         z-index: 1;
+        img{
+            height: 450px;
+        }
         .construction-dateBox{
             position: absolute;
             padding: 3px 10px;
