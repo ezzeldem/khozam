@@ -1414,6 +1414,7 @@ body {
   left: 12px;
   top: 2px;
   text-align: center;
+  border-bottom-right-radius: 20px;
 }
 
 .construction-section .construction-slider .construction-slider-item a .construction-dateBox span {
