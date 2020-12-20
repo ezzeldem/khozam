@@ -1305,6 +1305,10 @@ body {
      object-fit: contain;
 }
 
+.master-plan-section img {
+  height: 450px;
+}
+
 .consept-section .main-content {
   text-align: center;
 }
