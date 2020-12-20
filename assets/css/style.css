@@ -1385,6 +1385,10 @@ body {
           box-shadow: 0 0 0 14px rgba(0, 0, 0, 0.6);
 }
 
+.gallery-section .gallery-slider .gallery-slider-item a img {
+  height: 450px;
+}
+
 .construction-section .construction-slider .construction-slider-item {
   text-align: center;
 }
