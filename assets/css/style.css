@@ -1406,6 +1406,33 @@ body {
   z-index: 1;
 }
 
+.construction-section .construction-slider .construction-slider-item a .construction-dateBox {
+  position: absolute;
+  width: 104px;
+  padding: 3px;
+  z-index: 9999;
+  background-color: #c3a579;
+  left: 12px;
+  top: 2px;
+}
+
+.construction-section .construction-slider .construction-slider-item a .construction-dateBox span {
+  display: block;
+}
+
+.construction-section .construction-slider .construction-slider-item a .construction-dateBox span.date-number {
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+}
+
+.construction-section .construction-slider .construction-slider-item a .construction-dateBox span.date-month {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0;
+  color: black;
+}
+
 .construction-section .construction-slider .construction-slider-item a:after {
   content: "\f04b";
   font-family: "Font Awesome 5 Free";

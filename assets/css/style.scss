@@ -246,7 +246,7 @@ body {
     align-items: center;
     .select-floor-box {
       margin: 0 10px;
-      label{
+      label {
         font-size: 16px;
         color: rgba($gold-color, 1);
         margin: 0 10px;
@@ -305,7 +305,7 @@ body {
 .brochure-link {
   a {
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 14px;
     color: rgba($gold-color, 1);
     margin: 10px 0;
   }
@@ -1292,21 +1292,15 @@ body {
 
 // projects-banner-section
 
-
-
 // master-plan-section
 
-.master-plan-section{
-    img{
-        height: 550px;
-    }
+.master-plan-section {
+  img {
+    height: 550px;
+  }
 }
 
-
 // master-plan-section
-
-
-
 
 // consept-section
 
@@ -1341,7 +1335,7 @@ body {
 }
 
 .floorPlan-section {
-  .floor-select{
+  .floor-select {
     text-align: center;
     margin: 20px 0;
     .floor-select {
@@ -1355,8 +1349,8 @@ body {
 
   .floorPlan-img-size {
     text-align: center;
-    img{
-        height: 550px;
+    img {
+      height: 550px;
     }
   }
 }
@@ -1390,12 +1384,12 @@ body {
           @extend.trans-4;
         }
         &:hover {
-            &::after{
+          &::after {
             box-shadow: 0 0 0 14px rgba($black-color, 0.6);
           }
         }
-        img{
-            height: 450px   ;
+        img {
+          height: 450px;
         }
       }
     }
@@ -1409,6 +1403,29 @@ body {
       a {
         position: relative;
         z-index: 1;
+        .construction-dateBox{
+            position: absolute;
+            width: 104px;
+            padding: 3px ;
+            z-index: 9999;
+            background-color: rgba($gold-color, 1);
+            left: 12px;
+            top: 2px;
+            span{
+                display: block;
+                &.date-number{
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: rgba($black-color, 1);
+                }
+                &.date-month{
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding: 10px 0;
+                    color: rgba($black-color, 1);
+                }
+            }
+        }
         &:after {
           content: "\f04b";
           font-family: "Font Awesome 5 Free";
@@ -1432,7 +1449,7 @@ body {
           @extend.trans-4;
         }
         &:hover {
-            &::after{
+          &::after {
             box-shadow: 0 0 0 14px rgba($black-color, 0.6);
           }
         }
