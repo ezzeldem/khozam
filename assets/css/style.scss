@@ -247,7 +247,7 @@ body {
     .select-floor-box {
       margin: 0 10px;
       label{
-        font-size: 14px;
+        font-size: 16px;
         color: rgba($gold-color, 1);
         margin: 0 10px;
         font-weight: 700;
@@ -1325,7 +1325,7 @@ body {
 }
 
 .floorPlan-section {
-  .select-floor-box {
+  .floor-select{
     text-align: center;
     margin: 20px 0;
     .floor-select {
