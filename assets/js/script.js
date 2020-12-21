@@ -2,13 +2,13 @@ $(document).ready(function () {
     // intro slider
 
     $(".intro-slider").slick({
-        infinite: false,
+        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        autoplay: false,
+        autoplay: true,
         dots: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
     });
 
     5; // opneMnue
@@ -38,7 +38,7 @@ $(document).ready(function () {
         infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1500,
@@ -51,7 +51,7 @@ $(document).ready(function () {
         infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1500,
@@ -63,7 +63,7 @@ $(document).ready(function () {
         infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1500,
@@ -74,7 +74,7 @@ $(document).ready(function () {
         infinite: false,
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         adaptiveHeight: true,
         dots: false,
         autoplaySpeed: 1500,
