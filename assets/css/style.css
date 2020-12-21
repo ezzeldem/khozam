@@ -621,7 +621,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   -webkit-transition: 0.7s all ease-in-out;
   transition: 0.7s all ease-in-out;
@@ -682,10 +682,10 @@ body {
 }
 
 .gallery-section .gallery-box .details-box {
-  top: 50%;
+  top: 25%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   position: absolute;
   width: 85%;
   -webkit-transition: 1s all ease-in-out;

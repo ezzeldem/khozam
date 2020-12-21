@@ -217,7 +217,7 @@ body {
     position: relative;
     &::after {
       content: "\f30b";
-      
+
       position: absolute;
       right: 10px;
       top: 0;
@@ -365,10 +365,8 @@ body {
   }
 }
 
-
-
 .select-style {
-  width:100%;
+  width: 100%;
   height: 41px;
   background-color: transparent;
   border: 1px solid rgba($gold-color, 1);
@@ -381,7 +379,7 @@ body {
   option {
     color: rgba($black-color, 1);
   }
-  &:focus{
+  &:focus {
     border: 1px solid rgba($gold-color, 1);
     border-top: 0;
     border-left: 0;
@@ -390,8 +388,6 @@ body {
     outline: 0;
   }
 }
-
-
 
 // min class
 
@@ -616,7 +612,7 @@ body {
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba($black-color, 0.3);
+      background-color: rgba($black-color, 0.5);
       position: absolute;
       transition: 0.7s all ease-in-out;
     }
@@ -660,9 +656,9 @@ body {
       }
     }
     .details-box {
-      top: 50%;
+      top: 25%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translateX(-50%);
       position: absolute;
       width: 85%;
       transition: 1s all ease-in-out;
@@ -684,8 +680,8 @@ body {
           background-color: rgba($gold-color, 1);
         }
       }
-      ul{
-        li{
+      ul {
+        li {
           color: rgba($white-color, 1);
           font-size: 16px;
           font-weight: 600;
@@ -1442,32 +1438,32 @@ body {
       a {
         position: relative;
         z-index: 1;
-        img{
-            height: 450px;
+        img {
+          height: 450px;
         }
-        .construction-dateBox{
-            position: absolute;
-            padding: 3px 10px;
-            z-index: 9999;
-            background-color: rgba($gold-color, 1);
-            left: 12px;
-            top: 2px;
-            text-align:center;
-            border-bottom-right-radius: 20px;
-            span{
-                display: block;
-                &.date-number{
-                    font-size: 30px;
-                    font-weight: 700;
-                    color: rgba($black-color, 1);
-                }
-                &.date-month{
-                    font-size: 16px;
-                    font-weight: 600;
-                    padding: 10px 0;
-                    color: rgba($black-color, 1);
-                }
+        .construction-dateBox {
+          position: absolute;
+          padding: 3px 10px;
+          z-index: 9999;
+          background-color: rgba($gold-color, 1);
+          left: 12px;
+          top: 2px;
+          text-align: center;
+          border-bottom-right-radius: 20px;
+          span {
+            display: block;
+            &.date-number {
+              font-size: 30px;
+              font-weight: 700;
+              color: rgba($black-color, 1);
             }
+            &.date-month {
+              font-size: 16px;
+              font-weight: 600;
+              padding: 10px 0;
+              color: rgba($black-color, 1);
+            }
+          }
         }
         &:after {
           content: "\f04b";
