@@ -23,6 +23,14 @@ $(document).ready(function () {
         $(".over-lay").hide();
     });
 
+    // scroll link
+    $('.link-box a').click(function() {
+        $('html, body').animate({
+            scrollTop: $('#' + $(this).data('scroll')).offset().top
+        }, 900);
+    });
+
+
     // show form
 
     $(".select-careers").on("change", function () {
