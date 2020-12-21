@@ -684,6 +684,14 @@ body {
           background-color: rgba($gold-color, 1);
         }
       }
+      ul{
+        li{
+          color: rgba($white-color2, 1);
+          font-size: 16px;
+          font-weight: 600;
+          margin: 4px 0;
+        }
+      }
       .smallDesc {
         font-weight: 400;
         color: rgba($white-color, 1);
