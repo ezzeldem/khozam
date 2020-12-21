@@ -179,6 +179,7 @@ body {
 
 .link-box a {
   padding: 8px 44px;
+  margin: 5px 0;
   background-color: #c3a579;
   font-size: 16px;
   color: white;
@@ -552,7 +553,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../img/camera003.jpg");
   position: relative;
   background-attachment: fixed;
   z-index: 1;
