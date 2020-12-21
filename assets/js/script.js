@@ -8,7 +8,7 @@ $(document).ready(function () {
         arrows: false,
         autoplay: true,
         dots: true,
-        autoplaySpeed: 1400,
+        autoplaySpeed: 1500,
     });
 
     5; // opneMnue
