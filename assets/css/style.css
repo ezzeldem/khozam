@@ -404,7 +404,7 @@ body {
   padding: 10px 0;
   width: 100%;
   top: 0;
-  background-color: #c3a579;
+  background-color: #bfc1c4;
   position: fixed;
   left: 0;
   right: 0;
@@ -475,7 +475,7 @@ body {
   font-size: 22px;
   font-weight: 500;
   text-shadow: 1px 1px #6d6d6d;
-  color: white;
+  color: #c3a579;
 }
 
 .nav-section .nav-link ul li.hot-line a:hover:after {
