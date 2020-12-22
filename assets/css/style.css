@@ -27,7 +27,7 @@ body {
   background-color: #2b2b2b;
 }
 
-.trans-4, body, .pop-up-box, .pop-up-box .close-menu i, .pop-up-box::-webkit-scrollbar-thumb, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .gallery-section .gallery-slider .gallery-slider-item a:after, .construction-section .construction-slider .construction-slider-item a:after, a[data-call]::before {
+.trans-4, body, .pop-up-box, .pop-up-box .close-menu i, .pop-up-box::-webkit-scrollbar-thumb, .link-box .buttom-style, .link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .gallery-section .gallery-slider .gallery-slider-item a:after, .construction-section .construction-slider .construction-slider-item a:after, a[data-call]::before {
   -webkit-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
 }
@@ -177,7 +177,9 @@ body {
   margin: 0 0 10px;
 }
 
-.link-box a {
+.link-box .buttom-style, .link-box a {
+  cursor: pointer;
+  display: inline-block;
   padding: 8px 44px;
   margin: 5px 0;
   background-color: #c3a579;
@@ -187,7 +189,7 @@ body {
   border: 1px solid #c3a579;
 }
 
-.link-box a:hover {
+.link-box .buttom-style:hover, .link-box a:hover {
   background-color: transparent;
 }
 

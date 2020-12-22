@@ -177,7 +177,9 @@ body {
 }
 
 .link-box {
-  a {
+  .buttom-style,a {
+    cursor: pointer;
+    display: inline-block;
     padding: 8px 44px;
     margin: 5px 0;
     background-color: rgba($gold-color, 1);
