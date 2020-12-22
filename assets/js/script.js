@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
 
     // scroll link
-    $('.link-box a').click(function() {
+    $('.link-box a').click(function(e) {
         $('html, body').animate({
             scrollTop: $('#' + $(this).data('scroll')).offset().top
         }, 900);
