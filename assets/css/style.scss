@@ -1542,10 +1542,35 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: relative;
         padding: 30px;
+        &::before {
+          content: "\f04b";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          color: rgba($white-color, 1);
+          width: 60px;
+          height: 60px;
+          font-size: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          border-radius: 50%;
+          background-color: rgba($black-color, 0.4);
+          box-shadow: 0 0 0 12px rgba($black-color, 0.6);
+          z-index: 1;
+          transform: translate(-50%, -50%);
+          @extend.trans-4;
+        }
+        &:hover {
+          &::before {
+            box-shadow: 0 0 0 14px rgba($black-color, 0.6);
+          }
+        }
         .event-content {
           padding: 15px;
           background-color: rgba($black-color, 0.5);
@@ -1553,6 +1578,7 @@ body {
             font-size: 20px;
             color: rgba($white-color, 1);
             font-weight: 600;
+            text-align: center;
           }
           .prag {
             font-size: 14px;
