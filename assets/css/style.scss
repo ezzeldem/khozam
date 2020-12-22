@@ -177,7 +177,8 @@ body {
 }
 
 .link-box {
-  .buttom-style,a {
+  .buttom-style,
+  a {
     cursor: pointer;
     display: inline-block;
     padding: 8px 44px;
@@ -1629,6 +1630,41 @@ body {
     a {
       .pop-img {
         height: 152px;
+      }
+    }
+  }
+  .master-plan-section {
+    img {
+      height: 250px;
+    }
+  }
+  .floorPlan-section {
+    .floorPlan-img-size {
+      img {
+        height: 250px;
+      }
+    }
+  }
+
+  .gallery-section {
+    .gallery-slider {
+      .gallery-slider-item {
+        a {
+          img {
+            height: 450px;
+          }
+        }
+      }
+    }
+  }
+  .construction-section {
+    .construction-slider {
+      .construction-slider-item {
+        a {
+          img {
+            height: 250px;
+          }
+        }
       }
     }
   }
