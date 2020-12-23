@@ -67,6 +67,20 @@ $(document).ready(function () {
         nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
     });
 
+        // floor slider
+
+        $(".floor-slider").slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: false,
+            dots: false,
+            autoplaySpeed: 1500,
+            prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+            nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+        });
+        // project-slider
     $(".project-slider").slick({
         infinite: false,
         slidesToShow: 1,
@@ -78,6 +92,8 @@ $(document).ready(function () {
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
         nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
     });
+    // news-slider
+
     $(".news-slider").slick({
         infinite: false,
         slidesToShow: 2,

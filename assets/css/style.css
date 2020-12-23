@@ -28,7 +28,7 @@ body {
 }
 
 .trans-4, body, .pop-up-box, .pop-up-box .close-menu i, .pop-up-box::-webkit-scrollbar-thumb, .link-box .buttom-style,
-.link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .gallery-section .gallery-slider .gallery-slider-item a:after, .construction-section .construction-slider .construction-slider-item a:after, .media-section .media-event .media-event-item .event-img::before, a[data-call]::before {
+.link-box a, .link-box button, .link-box2 a, .link-box2 a::after, .arrow-slider-header, .nav-section .nav-link ul li a, .nav-section .nav-link ul li a::after, .intro-section .intro-slider .slick-dots li button::before, .contactUs-box .contactUs-form .form-group input, .contactUs-box .contactUs-form .form-group textarea, .footer-section .footer-box .footer-ul ul li a, .floorPlan-section .floorPlan-img-size a:after, .gallery-section .gallery-slider .gallery-slider-item a:after, .construction-section .construction-slider .construction-slider-item a:after, .media-section .media-event .media-event-item .event-img::before, a[data-call]::before {
   -webkit-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
 }
@@ -1386,6 +1386,40 @@ body {
   text-align: center;
 }
 
+.floorPlan-section .floorPlan-img-size a {
+  position: relative;
+}
+
+.floorPlan-section .floorPlan-img-size a:after {
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .floorPlan-section .floorPlan-img-size img {
   height: 550px;
 }
@@ -1638,7 +1672,7 @@ body {
     height: 250px;
   }
   .gallery-section .gallery-slider .gallery-slider-item a img {
-    height: 450px;
+    height: 250px;
   }
   .construction-section .construction-slider .construction-slider-item a img {
     height: 250px;
